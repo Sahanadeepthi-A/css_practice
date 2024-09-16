@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 1px solid black;
+}
+#box1{
+    background-color: azure;
+    flex-grow: 5;
+   
+}
+#box2{
+    background-color:blue;
+    /* align-self: flex-end;*/
+    flex-shrink:2;
+} 
+#box3{
+    background-color:blueviolet;
+    /* height: 75px; */
+}
+#box4{
+    background-color:chocolate;
+}
+#box5{
+    background-color:darkgray;
+    /* align-self: flex-end; */
+}
+#container{
+    height: 300px;
+    width: 600px;
+     display: flex; /*flex-direction:row  [default]*/
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    justify-content:center; 
+    /* flex-wrap: wrap; */
+    align-items:flex-start;
+    /* align-content: flex-start; */
+   
+}

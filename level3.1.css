@@ -1,0 +1,39 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+   border: 2px solid black;
+   display: inline-block;
+}
+/* #box1{
+    position: static;
+}
+#box2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#box3{
+    position: absolute;
+    top: 10px;
+}
+#box4{
+    position: fixed;
+    position: sticky;
+    right: 10px;
+    bottom: 200px;
+} */
+
+
+#box1{
+    background-image: url("sky.jpg");
+    background-size: cover;
+}
+#box2{
+    background-image: url("sky.jpg");
+    background-size:auto;
+}
+#box3{
+    background-image: url("sky.jpg");
+    background-size: contain;
+}

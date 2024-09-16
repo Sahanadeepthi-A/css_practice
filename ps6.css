@@ -1,0 +1,35 @@
+/* q1 */
+#navbar{
+    background-color:cadetblue;
+    display: flex;
+    justify-content:space-evenly;
+}
+a{
+    text-decoration: none;
+    color:white;
+    background-color:black
+}
+li{
+   list-style-type: none;
+   /* display: inline; */
+}
+
+
+/* q2 */
+.outer{
+    height: 400px;
+width: 400px;
+background-color: darkcyan;
+margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.inner{
+    height: 200px;
+width: 200px;
+background-color:rgb(1, 1, 248);
+}
+
